@@ -1,8 +1,8 @@
 /* este es mi hoja de estilo, box model */
 main {
 padding: 8rem 1rem;
-border: 10px rgb(185, 204, 211);
-margin: 3rem rgb(31, 31, 62);
+border: 10px rgb(4, 33, 44);
+margin: 3rem rgb(237, 237, 243);
 border-radius: 2rem;
 }
 img 
