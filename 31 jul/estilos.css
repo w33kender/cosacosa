@@ -1,4 +1,4 @@
-/* este es mi hoja de estilo, box model */
+/* este es mi hoja de estilo, box model 
 main {
 padding: 8rem 1rem;
 border: 10px rgb(4, 33, 44);
@@ -9,4 +9,27 @@ img
 {
     object-fit: cover;
     width: 100;
+} */
+
+body {
+background-color: rgb(182, 202, 214);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+}
+header {
+background-color: rgb(26, 124, 216);
+grid-column-start: 1;
+grid-column-end: 4;
+}
+main {
+grid-column-start: 1;
+grid-column-end: 3;
+padding: 1 rem;
+}
+footer {
+background-color: black;
+padding: 2 rem;
+grid-column-start: 1;
+grid-column-end: 4;
 }
