@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
+
+
+h1 {
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    font-style:normal;
+    }
+header {
+    background-color: rgb(160, 179, 198);
+}
+main {
+    background-color: rgb(105, 140, 171);
+}
+aside {
+    background-color: rgb(76, 134, 184);
+}
+footer {
+    background-color: rgb(24, 116, 197);
+}
+/* diseño responsivo con media queries, movil*/
+@media (min-width: 600px) {
+   /* body {
+      background: rgb(0, 0, 0);
+    } */
+
+
+#container  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "principal principal lado"
+    "pie pie pie"
+     ;
+    }
+
+
+header {
+    grid-area: cabeza;
+
+}
+main {
+
+    grid-area: principal;
+}
+aside{
+ grid-area: lado;
+    /* grid-area: 1/ 2/ 3/ 4/; */
+}
+footer{
+
+}
+}
+
