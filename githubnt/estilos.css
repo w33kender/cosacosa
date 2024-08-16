@@ -7,8 +7,8 @@ h1 {
 
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight:<weight>;
-    font-style:normal;
+    font-weight:weight
+    font-style normal
     }
 header {
     background-color: rgb(160, 179, 198);
@@ -55,8 +55,9 @@ aside{
  grid-area: lado;
     /* grid-area: 1/ 2/ 3/ 4/; */
 }
-footer{
+footer {
+    grid-area: pie;
+}
+}
 
-}
-}
 
