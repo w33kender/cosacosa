@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+
+
+.matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+  }
+  
+  /*columnas*/
+.columnas {
+    columns: 4 400px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.clip-me{
+    clip-path: polygon(18% 19%, 81% 18%, 100% 50%, 100% 80%, 0 82%, 0% 50%);
+}
+
+.clip-otro{
+    width: 100%;
+    float: left;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    shape-outside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);;
+}
+  
