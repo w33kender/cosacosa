@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librerías js</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+<header class="borde head"> <p>header </p> </header>
+<main class="borde main">
+
+    <h1> vivus y scroll reveal</h1>
+    <p> info de vivus </p>
+    <div id="my-div"> </div>
+</main>
+<aside class="borde lado"> 
+    <p> aside</p>
+</aside>
+<footer class="borde pie">
+    <p>footer </p>
+</footer>
+    </div>
+    <script src="js/vivus.js"></script>
+
+
+<script>
+    new Vivus ('my-div', {duation:200, type: 'delayed', file:'img/Untitled.svg'},);
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script> 
+ScrollReveal().reveal('.head',{delay: 250,easing:'ease-in' });
+ScrollReveal().reveal('.main',{delay:500, scale: 0.80});
+ScrollReveal().reveal('.lado',{delay:800, rotate:{x: 20, z:20},});
+ScrollReveal().reveal('.pie',{delay:1000, distance: '150%', origin: 'bottom'});
+</script>
+</body>
+</html>
