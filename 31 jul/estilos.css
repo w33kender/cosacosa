@@ -11,6 +11,16 @@ img
     width: 100;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+main {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal
+
+      
+}
+
 body {
 background-color: rgb(182, 202, 214);
 display: grid;
@@ -18,7 +28,8 @@ grid-template-columns: 1fr 1fr 1fr;
 gap: 1rem;
 }
 header {
-background-color: rgb(26, 124, 216);
+
+background-color: rgb(117, 145, 172);
 grid-column-start: 1;
 grid-column-end: 4;
 }
@@ -28,7 +39,7 @@ grid-column-end: 3;
 padding: 1 rem;
 }
 footer {
-background-color: black;
+background-color: rgb(134, 160, 185);
 padding: 2 rem;
 grid-column-start: 1;
 grid-column-end: 4;
