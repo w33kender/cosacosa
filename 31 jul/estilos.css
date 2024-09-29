@@ -11,16 +11,20 @@ img
     width: 100;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+/* 
+.parrafo {
+line-height: 1.5;
+color: red;
+font-family: 'Lucida sans', 'Lucida sans regular', 'Lucida grande', 'Lucida Sans Uncode', 'Geneva', 'Verdana', sans-serif;
 
-main {
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
-    font-style: normal
-
-      
 }
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/*css grid*/
 body {
 background-color: rgb(182, 202, 214);
 display: grid;
@@ -43,4 +47,36 @@ background-color: rgb(134, 160, 185);
 padding: 2 rem;
 grid-column-start: 1;
 grid-column-end: 4;
+}
+img{
+    object-fit: cover;
+    width: 100;
+}
+#logo {
+    width: 120px;
+}
+
+h1{
+    /*.playfair-display*/
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+    
+p{
+   /* .gowun-batang-regular */
+        font-family: "Gowun Batang", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+h2{
+    /*.playfair-display-subs*/
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      
 }
