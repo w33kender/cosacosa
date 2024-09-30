@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 
 h1 {
 
@@ -10,6 +10,13 @@ h1 {
     font-weight:weight
     font-style normal
     }
+
+p{
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
 header {
     background-color: rgb(160, 179, 198);
 }

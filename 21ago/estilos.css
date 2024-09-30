@@ -4,10 +4,15 @@
 
 /* estilos tipográficos*/
 
+.p{
+  color: aliceblue;
+}
+
 .baskervville-sc-regular {
     font-family: "Baskervville SC", serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(224, 0, 19);
 }
 
   .eb-garamond  {
@@ -15,6 +20,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
+    color: rgb(218, 10, 10);
   }
 
   .quicksand {
@@ -26,6 +32,11 @@
   /*columnas*/
 .columnas {
     columns: 4 400px;
+}
+
+
+header {
+  background-color: rgb(151, 0, 0);
 }
 img{
     width: 100%;
@@ -42,3 +53,6 @@ img{
     shape-outside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);;
 }
   
+footer{
+  background-color: rgb(151, 0, 0);
+}
