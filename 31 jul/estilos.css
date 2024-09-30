@@ -86,3 +86,40 @@ h2{
         font-weight: 400;
         font-style: normal;
 }
+
+/* Estilos navegacion */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header a {
+    text-decoration: none;
+    color: rgb(210, 205, 255);
+    transition: all .3s ease 0s;
+}
+header a:hover {
+    color: rgba(138, 162, 189, 0.829);
+}
+figcaption {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+pre, cite {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 2;
+}

@@ -1,0 +1,30 @@
+/* HOMOFOBIA EN MEXICO 
+main{
+    padding: 8rem;
+    border: 11px black solid;
+    margin: 5rem;
+    border-radius: 2rem;
+} */
+
+/* Ejemplos de class y id 
+
+.parrafo {
+    line-height: 1.5;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+
+/* Css grid, mi reticula */
+body {
+    display: grid;
+}
+
+
+
+/* Estilo imagenes */
+
+img{
+    object-fit: cover;
+    width: 100;
+}
